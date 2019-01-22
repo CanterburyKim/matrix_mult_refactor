@@ -1,5 +1,5 @@
 import unittest
-from matrix_lib_REF import matrix_vector_mult
+from matrix_lib import matrix_vector_mult
 
 class TestMatrixMult(unittest.TestCase):
     """
@@ -8,7 +8,6 @@ class TestMatrixMult(unittest.TestCase):
     def test_do_mult_OLD(self):
         """
         """
-
         matrix = [ [2,3],[4,5] ]
         vector = [  [1], [2] ]
         expected_result = [[8], [14]]
