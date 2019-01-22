@@ -1,5 +1,5 @@
 import unittest
-from matrix_lib_REF import matrix_vector_mult
+from matrix_lib import matrix_vector_mult
 
 class TestMatrixMult(unittest.TestCase):
     """
